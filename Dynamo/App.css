@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: local('Arvo'), url('https://cdn.indmoney.com/static/fonts/400.woff2') format('woff2');
+    font-weight: normal;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: 'Avenir Next';
+    src: local('Arvo'), url('https://cdn.indmoney.com/static/fonts/500.woff2') format('woff2');
+    font-weight: 500;
+    font-display: fallback;
+  }
+  @font-face {
+    font-family: 'Avenir Next';
+    src: local('Arvo'), url('https://cdn.indmoney.com/static/fonts/600.woff2') format('woff2');
+    font-weight: 600;
+    font-display: fallback;
+  }
+  
+  .ant-typography {
+    font-weight: 400 !important;
+  }
+  
+  .centerBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Avenir Next',"sans-serif";
+    font-size: 15px;
+  }
+  
+  @media(max-width: 768px) {
+    .popup-content {
+        width: 90% !important;
+    }
+  }
+  
+  
+  .popup-content{
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .ant-collapse-header {
+    color: white !important;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Avenir Next',"sans-serif";
+  }
+  
+  .link-highlight a:active, .link-highlight a:focus {
+    color: green;
+  
+  }
